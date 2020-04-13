@@ -65,7 +65,7 @@ public class SddmArchiverApplication {
 
 ```java
     @Transactional(rollbackFor = ArithmeticException.class)
-    public Document updateDocument(String id, String collectionName, 					JSONObject content) throws BadRequestException {
+    public Document updateDocument(String id, String collectionName, JSONObject content) throws BadRequestException {
     					...
     }
  
